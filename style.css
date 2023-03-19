@@ -1,0 +1,97 @@
+body {
+background-color: hsl(223, 19%, 93%);
+margin: auto;
+margin-top: 40px;
+}
+.container {
+    border-radius: 10px;
+    background-color:white;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.column {
+    display: flex;
+    flex: .1;
+}
+
+.column-2{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+     flex-grow: 1;
+}
+.header {
+    background-color: aquamarine;
+    display: flex;
+    align-items: flex-start;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    text-align: left;
+}
+
+.card {
+    width: fit-content;
+}
+.card-body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.card-title {
+    margin: 1px;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start
+}
+/* .reply-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+} */
+
+
+ input {
+    display: flexbox;
+    align-content: flex-start;
+   width: 1000px;
+   height: 200px;
+ }
+.send {
+    background-color: hsl(228, 45%, 44%);
+    
+}
+
+.delete, .edit, .reply {
+    justify-content: flex-end;
+    background-color: white;
+    border: 0px;
+    color: hsl(228, 45%, 44%);
+    
+}
+
+.delete {
+    color: hsl(358, 79%, 66%);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    /* Set container height to 100% of the viewport height */
+}
+
+.column {
+    flex: 1;
+    /* This will distribute the available space equally between the two columns */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    flex-grow: 1;
+    /* This will distribute the available space equally between rows within a column */
+}
+
+.column-1 .row {
+    background-color: lightblue;
+}
+
+.column-2 .row {
+    background-color: lightgreen;
+}
