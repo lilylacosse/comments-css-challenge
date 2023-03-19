@@ -28,10 +28,48 @@ body {
     /* This will distribute the available space equally between rows within a column */
 }
 
-.column-1 .row {
-    background-color: lightblue;
+/* .column-1 .row {
+    background-color: ;
 }
 
 .column-2 .row {
-    background-color: lightgreen;
+    background-color: ;
+} */
+
+ /* #### Primary  */
+.row11 {background-color:hsl(238, 40%, 52%);}
+ /* Moderate blue: hsl(238, 40%, 52%)  */
+.row12 {
+      background-color: hsl(358, 79%, 66%);
+  }
+/* Soft Red: hsl(358, 79%, 66%)  */
+.row13 {
+    background-color: hsl(239, 57%, 85%);
 }
+ /* Light grayish blue: hsl(239, 57%, 85%)  */
+ .row14 {
+     background-color:hsl(357, 100%, 86%);
+ }
+ /* Pale red: hsl(357, 100%, 86%)  */
+ 
+ /* #### Neutral  */
+.row21 {
+    background-color: hsl(212, 24%, 26%);
+}
+/* Dark blue: hsl(212, 24%, 26%)  */
+.row22 {
+    background-color: hsl(211, 10%, 45%);
+}
+/* Grayish Blue: hsl(211, 10%, 45%)  */
+.row23 {
+    background-color: hsl(223, 19%, 93%);
+}
+/* Light gray: hsl(223, 19%, 93%)  */
+.row24 {
+    background-color: hsl(228, 33%, 97%);
+}
+/* Very light gray: hsl(228, 33%, 97%)  */
+.row25 {
+    background-color: hsl(0, 0%, 100%);
+}
+/* White: hsl(0, 0%, 100%) */
