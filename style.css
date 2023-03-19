@@ -1,13 +1,15 @@
 body {
-background-color: hsl(223, 19%, 93%);
-margin: auto;
-margin-top: 40px;
+    background-color: hsl(223, 19%, 93%);
+    margin: auto;
+    margin-top: 4rem;
 
 }
+
 .container {
     border-radius: 10px;
-    background-color:white;
+    background-color: hsl(0, 0%, 100%);
     font-family: "Rubik", sans-serif;
+    font-size: 16px;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -15,81 +17,106 @@ margin-top: 40px;
     padding: auto;
     padding: 10px;
 }
+
 .column {
     display: flex;
     flex: .1;
 }
 
-.column-2{
-    background-color: aqua;
-    display:flex;
-    flex-direction: column;
-     flex-grow: 1;
-}
-.row {
+.column-2 {
+    background-color: hsl(0, 0%, 100%);
     display: flex;
-flex-direction: row;
-margin: 5px;
-    
-}
-.header {
-background-color: aquamarine;
-   
+    flex-direction: column;
+    flex-grow: 1;
 }
 
-.comment{
-    background-color: bisque;
-    d
- 
- }
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.header {
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.comment {
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 90%;
+}
 
 
 .card {
-    background-color: hsl(223, 19%, 93%) ;
-    
+    background-color: hsl(223, 19%, 93%);
+
 }
+
 .card-body {
-background-color: hsl(223, 19%, 93%);
+    background-color: hsl(223, 19%, 93%);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
 
 .card-title {
     margin: 1px;
-   color: hsl(238, 40%, 52%);
-   
+    color: hsl(238, 40%, 52%);
+
 }
 
+.delete,
+.edit,
+.reply {
 
- input {
-    display: flexbox;
-    align-content: flex-start;
-   width: 1000px;
-   height: 200px;
- }
-.send {
-    background-color: hsl(228, 45%, 44%);
-    
-}
-
-.delete, .edit, .reply {
-    justify-content: flex-end;
     background-color: white;
     border: 0px;
     color: hsl(228, 45%, 44%);
-    
+
+}
+
+.delete:hover {
+    color: hsl(357, 100%, 86%)
+}
+
+.reply {
+    margin-left: 750px;
+}
+
+.reply:hover {
+    color: hsl(239, 57%, 85%);
+}
+
+.edit:hover {
+    color: hsl(239, 57%, 85%);
 }
 
 .delete {
     color: hsl(358, 79%, 66%);
+    margin-left: 700px;
 }
 
-p, .date {color:hsl(211, 10%, 45%);
-
+.send:hover {
+    background-color: hsl(239, 57%, 85%);
 }
+
+h5 {
+    margin-left: 16px;
+}
+
+p,
+.date {
+    color: hsl(211, 10%, 45%);
+}
+
+.date {
+    margin-left: 25px;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -97,4 +124,56 @@ p, .date {color:hsl(211, 10%, 45%);
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+#commentFace {
+    margin-bottom: 135px;
+}
+
+input {
+    vertical-align: top;
+    width: 1000px;
+    height: 150px;
+
+}
+
+.inputSend {
+    display: flex;
+    justify-content: space-around;
+}
+
+.send {
+    margin-left: 15;
+    margin-bottom: 165px;
+    background-color: hsl(228, 45%, 44%);
+}
+
+::placeholder {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.replyComment {
+    margin-left: 400px;
+    width: 64%;
+}
+
+.replyOne {
+    margin-left: 580px;
+}
+
+.deleteOne {
+    margin-left: 495px;
+}
+
+.whoAreYouTalkingTo {
+    color: hsl(238, 40%, 52%);
+    ;
+}
+
+.you {
+    background-color: hsl(238, 40%, 52%);
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 15px;
 }

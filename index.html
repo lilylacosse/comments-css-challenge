@@ -40,9 +40,13 @@
       <div class="column column-1">
         <div class="card d-inline-block">
           <div class="card-body">
-            <button type="button" class="btn btn-outline-primary-whitesmoke">+</button>
+            <button type="button" class="btn btn-outline-primary-whitesmoke">
+              +
+            </button>
             <h5 class="card-title">12</h5>
-            <button type="button" class="btn btn-outline-primary-whitesmoke">-</button>
+            <button type="button" class="btn btn-outline-primary-whitesmoke">
+              -
+            </button>
           </div>
         </div>
       </div>
@@ -77,9 +81,16 @@
       <div class="column column-1">
         <div class="card d-inline-block">
           <div class="card-body">
-            <button type="button" class="btn btn-outline-primary-hsl(223, 19%, 93%)">+</button>
+            <button
+              type="button"
+              class="btn btn-outline-primary-hsl(223, 19%, 93%)"
+            >
+              +
+            </button>
             <h5 class="card-title">5</h5>
-            <button type="button" class="btn btn-outline-primary-whitesmoke">-</button>
+            <button type="button" class="btn btn-outline-primary-whitesmoke">
+              -
+            </button>
           </div>
         </div>
       </div>
@@ -87,9 +98,11 @@
       <div class="column column-2">
         <div class="row header">
           <span class="head">
-            <img 
-            src="./images/avatars/image-maxblagun.png" alt="profile" alt="profile"
-             />
+            <img
+              src="./images/avatars/image-maxblagun.png"
+              alt="profile"
+              alt="profile"
+            />
 
             <h5 class="d-inline-block">maxblagun</h5>
             <span class="date">2 weeks ago</span>
@@ -97,20 +110,26 @@
           </span>
         </div>
         <p class="row comment">
-            Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!
-          </p>
-        </div>
-      </div
+          Woah, your project looks awesome! How long have you been coding for?
+          I'm still new, but think I want to dive into React as well soon.
+          Perhaps you can give me an insight on where I can learn React? Thanks!
+        </p>
+      </div>
+    </div>
 
     <!-- Comment 3 -->
 
-    <div class="container reply">
+    <div class="replyComment container">
       <div class="column column-1">
         <div class="card d-inline-block">
           <div class="card-body">
-            <button type="button" class="btn btn-outline-primary-whitesmoke">+</button>
+            <button type="button" class="btn btn-outline-primary-whitesmoke">
+              +
+            </button>
             <h5 class="card-title">4</h5>
-            <button type="button" class="btn btn-outline-primary-whitesmoke">-</button>
+            <button type="button" class="btn btn-outline-primary-whitesmoke">
+              -
+            </button>
           </div>
         </div>
       </div>
@@ -118,29 +137,35 @@
       <div class="column column-2">
         <div class="row header">
           <span class="head">
-            <img 
-            src="./images/avatars/image-ramsesmiron.png" alt="profile"
-             />
+            <img src="./images/avatars/image-ramsesmiron.png" alt="profile" />
 
             <h5 class="d-inline-block">ramsesmiron</h5>
             <span class="date">1 week ago</span>
-            <button class="reply"><i class="fas fa-reply"></i>Reply</button>
+            <button class="reply replyOne">
+              <i class="fas fa-reply"></i>Reply
+            </button>
           </span>
         </div>
-        <p class="row comment">
-           <span>@maxblagun</span> If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.
-          </p>
-        </div>
-      </div
-
-        <!-- Comment #4 -->
-    <div class="container reply">
+        <p class="comment">
+          <span class="whoAreYouTalkingTo">@maxblagun</span> If you're still
+          new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS
+          before considering React. It's very tempting to jump ahead but lay a
+          solid foundation first.
+        </p>
+      </div>
+    </div>
+    <!-- Comment #4 -->
+    <div class="replyComment container">
       <div class="column column-1">
         <div class="card d-inline-block">
           <div class="card-body">
-            <button type="button" class="btn btn-outline-primary-whitesmoke">+</button>
+            <button type="button" class="btn btn-outline-primary-whitesmoke">
+              +
+            </button>
             <h5 class="card-title">2</h5>
-            <button type="button" class="btn btn-outline-primary-whitesmoke">-</button>
+            <button type="button" class="btn btn-outline-primary-whitesmoke">
+              -
+            </button>
           </div>
         </div>
       </div>
@@ -148,30 +173,37 @@
       <div class="column column-2">
         <div class="row header">
           <span class="head">
-            <img 
-            src="./images/avatars/image-juliusomo.png" alt="profile"
-             />
+            <img src="./images/avatars/image-juliusomo.png" alt="profile" />
             <h5 class="d-inline-block">juliusomo</h5>
-            <div class="d-inline-block">you</div>
+            <div class="you d-inline-block">you</div>
             <span class="date">2 days ago</span>
-             <button class="delete"><i class="fas fa-delete button"></i>Delete</button>
-             <button class="edit"><i class="fas fa-edit"></i>Edit</button>
+            <button class="delete deleteOne">
+              <i class="fas fa-trash button"></i>Delete
+            </button>
+            <button class="edit"><i class="fas fa-edit"></i>Edit</button>
           </span>
         </div>
-        <p class="row comment">
-           <span>@ramsesmiron</span> I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.
-          </p>
-        </div>
-      </div
+        <p class="comment">
+          <span class="whoAreYouTalkingTo">@ramsesmiron</span> I couldn't agree
+          more with this. Everything moves so fast and it always seems like
+          everyone knows the newest library/framework. But the fundamentals are
+          what stay constant.
+        </p>
+      </div>
+    </div>
 
     <!-- COMMENT INPUT -->
 
-    <div class="container input">
-      <span class="d-inline-block">
-      <img src="./images/avatars/image-juliusomo.png" alt="profile" />
+    <div class="container inputSend">
+      <!-- <span class=" d-inline-block"> -->
+      <img
+        id="commentFace"
+        src="./images/avatars/image-juliusomo.png"
+        alt="profile"
+      />
       <input type="text" placeholder="Add a comment..." />
-      <button class="send btn btn-primary">Send</button>
-      </span>
+      <button class="btn btn-primary send">Send</button>
+      <!-- </span> -->
     </div>
 
     <!-- PROJECT CREDIT -->
